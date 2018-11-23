@@ -1,0 +1,2 @@
+import './FuGu.scss';
+
