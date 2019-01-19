@@ -11,3 +11,47 @@
 } 
 @media (min-width: 280px) and (max-width: 768px) {
 }
+body {
+	background-color: rgb(255,111,97);
+}
+.flex-menu {
+    display: flex;
+    justify-content: space-between;
+}
+ main {
+     display: flex;
+ }
+ .text {
+    margin-left: 10%;
+ }
+
+footer {
+    margin-top:50px;
+    height:100px;
+    width:100%px;
+    background: #3C3D41;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    }
+    .footer-col {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    }
+    .footer-col a {
+    color: white;
+    }
+    
+    .social-bar-wrap {
+    text-align: center;
+    }
+    .social-bar-wrap a {
+    padding: 0 7px;
+    font-size: 18px;
+    }
+
+
+
+  
