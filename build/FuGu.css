@@ -7,6 +7,19 @@ body {
 body {
   background-color: #ff6f61; }
 
+header {
+  height: 100px;
+  width: 100%;
+  background: #3C3D41;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: normal; }
+
+.container {
+  display: -ms-flexbox;
+  display: flex; }
+
 .flex-menu {
   display: -ms-flexbox;
   display: flex;
@@ -18,12 +31,12 @@ main {
   display: flex; }
 
 .text {
-  margin-left: 10%; }
+  margin-left: 5%; }
 
 footer {
   margin-top: 50px;
   height: 100px;
-  width: 100%px;
+  width: 100%;
   background: #3C3D41;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -44,3 +57,51 @@ footer {
 .social-bar-wrap a {
   padding: 0 7px;
   font-size: 18px; }
+
+.nav_list {
+  margin: 20px;
+  width: 200px;
+  list-style: none; }
+
+.nav_list li {
+  position: relative; }
+
+.nav_list li a {
+  padding: 5px 10px 5px 20px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  background-color: #eafab0;
+  border-bottom: 1px solid black; }
+
+.nav_list li span {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 11px;
+  left: 6px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 6px solid black; }
+
+.nav_list li.active span {
+  border-top: 6px solid black;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent; }
+
+.nav_list ul {
+  margin: 0;
+  width: 100%;
+  display: none;
+  list-style: none; }
+
+.nav_list ul li {
+  position: static; }
+
+.nav_list ul a {
+  padding-left: 0;
+  font-size: 17px;
+  color: black;
+  background-color: #eafab0; }
